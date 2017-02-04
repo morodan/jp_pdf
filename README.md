@@ -5,7 +5,7 @@
 `su -`
 or 
 `sudo su`
-depending on what linux you have (centos or ubuntu)
+depending on what linux distro you have (centos or ubuntu)
 3. go to tmp folder
 `cd /tmp`
 4. Download latest phantom static build with:
