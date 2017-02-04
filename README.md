@@ -77,3 +77,7 @@ folders `css`, `js` and `img` are for demo only
 `download.php` - will return the pdf file and delete it from server
 
 temporary files (html and pdf) will be saved in `tmp` folder and are automatically deleted when the pdf is downloaded.
+
+don't forget to set the rights for tmp folder
+
+`chmod 755 tmp`
