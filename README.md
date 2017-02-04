@@ -64,3 +64,16 @@ page.open(address, function(status){
 after that, you will have a pdf file, something like 4545335353000.pdf in your folder
 
 
+##Update
+
+`index.html` is only a demo to show you how the things works
+
+folders `css`, `js` and `img` are for demo only
+
+`convert.js` is the file which make the conversion from html to pdf. this file will be run in command line by php
+
+`converttopdf.php` - the file which generate html file and send it to convert.js
+
+`download.php` - will return the pdf file and delete it from server
+
+temporary files (html and pdf) will be saved in `tmp` folder and are automatically deleted when the pdf is downloaded.
