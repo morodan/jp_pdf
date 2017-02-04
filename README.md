@@ -26,7 +26,7 @@ or
 
 `convert.js`
 
-`/********************************************/
+```/********************************************/
 var page = require('webpage').create();
 
 // here you can set the viewport size
@@ -54,7 +54,7 @@ page.open(address, function(status){
     }
     phantom.exit();
 });
-/**********************************************/`
+/**********************************************/```
 
 10. how to use the script from command line, in the folder where the convert.js is
 `phantomjs convert.js http://test.adviceasdev.dk/maerskretool/print-example.html`
